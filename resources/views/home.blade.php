@@ -14,6 +14,7 @@
                 {{ $comic['title'] }}
             </div>
             <div class="card-body">
+                <img src="{{ $comic['thumb']}}" class="img-fluid">
                 <p>
                     {{$comic['description']}}
                 </p>
