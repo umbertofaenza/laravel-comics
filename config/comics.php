@@ -20,7 +20,7 @@ return [
             "Curt Swan",
             "John Cassaday",
             "Olivier Coipel",
-            "Jim Lee"
+            "Jim Lee",
         ],
         "writers" => [
             "Brad Meltzer",
@@ -35,7 +35,7 @@ return [
             "Peter J. Tomasi",
             "Dan Jurgens",
             "Jerry Siegel",
-            "Paul Levitz"
+            "Paul Levitz",
         ],
     ],
     [
@@ -47,10 +47,10 @@ return [
         "sale_date" => "2020-10-06",
         "type" => "comic book",
         "artists" => [
-            "Rafael Albuquerque"
+            "Rafael Albuquerque",
         ],
         "writers" => [
-            "Scott Snyder"
+            "Scott Snyder",
         ],
     ],
     [
@@ -62,10 +62,10 @@ return [
         "sale_date" => "2018-01-24",
         "type" => "graphic novel",
         "artists" => [
-            "Stjepan Sejic"
+            "Stjepan Sejic",
         ],
         "writers" => [
-            "Dan Abnett"
+            "Dan Abnett",
         ],
     ],
     [
@@ -77,10 +77,10 @@ return [
         "sale_date" => "2016-07-27",
         "type" => "comic book",
         "artists" => [
-            "Rafael Albuquerque"
+            "Rafael Albuquerque",
         ],
         "writers" => [
-            "Hope Larson"
+            "Hope Larson",
         ],
     ],
     [
@@ -92,10 +92,10 @@ return [
         "sale_date" => "2018-10-03",
         "type" => "comic book",
         "artists" => [
-            "Tony S. Daniel"
+            "Tony S. Daniel",
         ],
         "writers" => [
-            "Tom King"
+            "Tom King",
         ],
     ],
     [
@@ -107,10 +107,10 @@ return [
         "sale_date" => "2016-10-26",
         "type" => "comic book",
         "artists" => [
-            "Bernard Chang"
+            "Bernard Chang",
         ],
         "writers" => [
-            "Dan Jurgens"
+            "Dan Jurgens",
         ],
     ],
     [
@@ -122,10 +122,10 @@ return [
         "sale_date" => "2019-08-28",
         "type" => "comic book",
         "artists" => [
-            "David Marquez"
+            "David Marquez",
         ],
         "writers" => [
-            "Joshua Williamson"
+            "Joshua Williamson",
         ],
     ],
     [
@@ -139,10 +139,10 @@ return [
         "artists" => [
             "Clayton Henry",
             "Gleb Melnikov",
-            "Dale Eaglesham"
+            "Dale Eaglesham",
         ],
         "writers" => [
-            "Joshua Williamson"
+            "Joshua Williamson",
         ],
     ],
     [
@@ -158,12 +158,12 @@ return [
             "Ashley A. Woods",
             "Olivier Coipel",
             "James Stokoe",
-            "Darko Lafuente"
+            "Darko Lafuente",
         ],
         "writers" => [
             "Sam Johns",
             "Joshua Williamson",
-            "John Ridley"
+            "John Ridley",
         ],
     ],
     [
@@ -175,10 +175,10 @@ return [
         "sale_date" => "2020-08-25",
         "type" => "comic book",
         "artists" => [
-            "Jason Fabok"
+            "Jason Fabok",
         ],
         "writers" => [
-            "Geoff Johns"
+            "Geoff Johns",
         ],
     ],
     [
@@ -190,10 +190,10 @@ return [
         "sale_date" => "2020-10-20",
         "type" => "comic book",
         "artists" => [
-            "Matteo Scalera"
+            "Matteo Scalera",
         ],
         "writers" => [
-            "Katana Collins"
+            "Katana Collins",
         ],
     ],
     [
@@ -206,11 +206,10 @@ return [
         "type" => "graphic novel",
         "artists" => [
             "Fernando Blanco",
-            "Joëlle Jones"
+            "Joëlle Jones",
         ],
         "writers" => [
-            "Joëlle Jones"
+            "Joëlle Jones",
         ],
     ],
 ];
-
