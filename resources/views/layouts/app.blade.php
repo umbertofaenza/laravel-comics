@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Laravel</title>
+  <title>@yield('page-title')</title>
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -15,7 +15,18 @@
 </head>
 
 <body>
-  <h1>Welcome</h1>
+  {{-- header --}}
+  <header></header>
+
+  {{-- main --}}
+  <main>
+    <div class="container">
+      @yield('main-content')
+    </div>
+  </main>
+
+  {{-- footer --}}
+  <footer></footer>
 </body>
 
 </html>
