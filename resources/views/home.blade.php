@@ -3,24 +3,24 @@
 @section('page-title', $page_title)
 
 @section('main-content')
-<h1 class="my-3">Comics</h1>
-
-<div class="row row-cols-3 g-3">
-
-    @foreach($comics as $comic)
-    <div class="col">
-        <div class="card">
-            <div class="card-header">
-                {{ $comic['title'] }}
-            </div>
-            <div class="card-body">
-                <img src="{{ $comic['thumb']}}" class="img-fluid">
-                <p>
-                    {{$comic['description']}}
-                </p>
+<section id="comics">
+    {{-- section title --}}
+    <span class="section-title">Current Series</span>
+    {{-- row --}}
+    <div class="row row-cols-3 g-3">
+        {{-- cols with cards --}}
+        @foreach($comics as $comic)
+        <div class="col">
+            <div class="comic-card">
+                <div class="card-body">
+                    <img src="{{ $comic['thumb']}}">
+                    <span class="comic-title">
+                        {{ $comic['title'] }}
+                    </span>
+                </div>
             </div>
         </div>
+        @endforeach
     </div>
-    @endforeach
-</div>
+</section>
 @endsection

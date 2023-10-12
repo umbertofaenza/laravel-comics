@@ -1,1 +1,27 @@
 @import "~bootstrap/scss/bootstrap";
+
+body {
+    background-color: #1c1c1c;
+    color: #ddd;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+}
+
+.section-title {
+    display: inline-block;
+    background-color: #0282f9;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 0.5rem 2rem;
+    margin: 2rem 0;
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
+
+.comic-title {
+    display: block;
+    margin: 5px 0;
+}
